@@ -1,9 +1,15 @@
-# Using Vue in Markdown
+# Install
 
-## Browser API Access Restrictions
+1. Descargar plantilla gridsome starter + vuestrap <br>
+[Gridsome Starter Bootstrap](https://www.example.com)
 
-Because VuePress applications are server-rendered in Node.js when generating static builds, any Vue usage must conform to the [universal code requirements](https://ssr.vuejs.org/en/universal.html). In short, make sure to only access Browser / DOM APIs in `beforeMount` or `mounted` hooks.
+2. Importar bootstrap icons para menu
+```
+@import 'custom.scss';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
 
-If you are using or demoing components that are not SSR friendly (for example containing custom directives), you can wrap them inside the built-in `<ClientOnly>` component:
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+```
 
-##
+3. Personalizar el css a gusto 

@@ -1,7 +1,7 @@
 module.exports = {
     dest: 'docs',
     base: '/vp-blog-tests/',  
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Gridsome guide',
   description: 'Aqui se comentaran tecnologias web y deploys',
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
